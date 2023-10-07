@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+body{
+    width: 99%;
+    background-image: url(../images/bg.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    color:#0C4655;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#todo-container {
+    padding-top: 5px;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    background: #1c788f;
+    border-radius: 20px;
+}
+
+.input-btn{
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+#todo-list button {
+    margin-left: 5px;
+    width: 110px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #156276;
+    color: #ccc;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#todo-list button:hover{
+    background-color: #00c3ff;
+    color: black;
+    transition: 1s;
+}
+
+#todo-input {
+    margin-left: 60px;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    color: #0C4655;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#todo-input:focus{
+    box-shadow: 1px 1px 15px #00ffff;
+
+}
+
+#add{
+    width: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background: #528f9e;
+    cursor: pointer;
+    color: #ccc;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span{
+    width: 370px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    color: #09343f;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#todo-list-container{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    background: #1c788f;
+    border-radius: 20px;
+
+}
+
+input{
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #0C4655;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
