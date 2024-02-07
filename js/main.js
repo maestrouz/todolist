@@ -56,8 +56,8 @@ function renderTodos() {
         const li = document.createElement('li');
         li.innerHTML = `
             <span>${todo}</span>
-            <button id="edit" onclick="editTodo(${index})">EDIT</button>
-            <button id="del" onclick="removeTodo(${index})">DELETE</button>
+            <button id="edit" onclick="editTodo(${index})"><img class="edit" src="./images/edit.png" alt=""></button>
+            <button id="del" onclick="removeTodo(${index})"><img class="trash" src="./images/trash.png" alt=""></button>
         `;
         todoList.appendChild(li);
     });
